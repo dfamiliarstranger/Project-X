@@ -1,6 +1,7 @@
 import hamburger from '../assets/icons/primary.png';
 import React, { useState } from "react";
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
+import { Link } from 'react-router-dom';
 import Cancel from "../assets/icons/multiply.png";
 
 
@@ -31,36 +32,36 @@ function Dropdown() {
       >
         <div className="py-1">
           <MenuItem>
-            <a
-              href="index.html"
+            <Link
+              to="/"
               className=" dropdown-items block pl-5 pr-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
             >
               Home
-            </a>
+            </Link>
           </MenuItem>
           <MenuItem>
-            <a
-              href="index.html"
+            <Link
+              to="/about"
               className="dropdown-items block pl-5 pr-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
             >
               About
-            </a>
+            </Link>
           </MenuItem>
           <MenuItem>
-            <a
-              href="index.html"
+            <Link
+              to="/contact"
               className="dropdown-items block pl-5 pr-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
             >
               Get in Touch
-            </a>
+            </Link>
           </MenuItem>
           <MenuItem>
-            <a
-              href="index.html"
+            <Link
+              to="/project"
               className="dropdown-items block pl-5 pr-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
             >
               Project
-            </a>
+            </Link>
           </MenuItem>
           <MenuItem>
             <a

@@ -32,7 +32,7 @@
     width:343px;
 }
 
-.offer, .roles, .faq, .latest-header {
+.offer, .roles, .faq, .latest-header, .about-captions{
     font-family: "Open Sans", sans-serif;
     font-weight:600;
     font-size:14px;
@@ -40,7 +40,7 @@
     letter-spacing:2px;
 }
 
-.offer-content, .roles-content {
+.offer-content, .roles-content, .about-content{
     color:rgba(90, 88, 88, 1);
     font-family: "Open Sans", sans-serif;
     font-weight:400;
@@ -48,7 +48,7 @@
     width:382px;
 }
 
-.numberone,.numbertwo, .numberthree, .numberfour, .numberfive, .numbersix, .rolesNumbers, .faq-text
+.numberone,.numbertwo, .numberthree, .numberfour, .numberfive, .numbersix, .rolesNumbers, .faq-text, .values
 {
     font-family: "Space Grotesk", sans-serif;
     font-weight:400;
@@ -60,7 +60,8 @@
     padding-top:6px;
 }
 
-.numberone-text, .numbertwo-text, .numberthree-text, .numberfour-text, .numberfive-text, .numbersix-text, .steps-text {
+.numberone-text, .numbertwo-text, .numberthree-text, .numberfour-text, .numberfive-text, .numbersix-text, .steps-text, .values-text
+{
     color:rgba(90, 88, 88, 1);
     font-family: "Open Sans", sans-serif;
     font-weight:400;
@@ -96,7 +97,7 @@
     padding-top:12px;
 }
 
-.readyheader {
+.readyheader, .whyvolunteer {
     color:rgba(29, 26, 26, 1);
     font-family: "Space Grotesk", sans-serif;
     font-weight:400;
@@ -118,7 +119,7 @@
     width:392px;
 }
 
-.join {
+.join, .volunteer {
     color:rgba(255, 255, 255, 1);
     background-color:rgba(29, 26, 26, 1);
     text-align:center;
@@ -252,4 +253,16 @@
 
 .lines {
     color:rgba(108, 106, 106, 1);
+}
+
+/* About Page */
+.about-title {
+    color:rgba(29, 26, 26, 1);
+    font-family: "Space Grotesk", sans-serif;
+    font-weight:500;
+    font-size:56px;
+}
+
+.mentorship {
+    width:;
 }

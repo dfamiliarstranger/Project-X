@@ -1,15 +1,15 @@
 import React from "react";
-import '../index.css';
+import '../../index.css';
 import { Link } from 'react-router-dom';
 
 // Images
-import Savearns from "../assets/images/Logo-2.png";
+import Savearns from "../../assets/images/Logo-2.png";
 
 function Footer() {
 
-  // function Onclick(){
-  //   window.scrollTo(0, 0); // Scroll to the top
-  // }
+//   function Onclick(){
+//     window.scrollTo(0, 0); // Scroll to the top
+//   }
     return(
         <footer className="footer pb-6 xsm:w-full">
           <div className="flex gap-16 link-contain pt-8">
