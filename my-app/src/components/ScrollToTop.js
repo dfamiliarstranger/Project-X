@@ -1,15 +1,18 @@
-// ScrollToTop.js
-import { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+const ScrollToTopButton = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth', // This enables smooth scrolling
+    });
+  };
 
-const ScrollToTop = () => {
-  const { pathname } = useLocation();
+  return (
+    <button 
+      onClick={scrollToTop}
+    >
+      Scroll to Top
+    </button>
+  );
+}
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
-
-  return null; // This component doesn't need to render anything
-};
-
-export default ScrollToTop;
+export default ScrollToTopButton;

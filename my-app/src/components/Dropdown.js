@@ -64,37 +64,37 @@ function Dropdown() {
             </Link>
           </MenuItem>
           <MenuItem>
-            <a
-              href="index.html"
+            <Link
+              to="/notfound"
               className="dropdown-items block pl-5 pr-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
             >
               How it works
-            </a>
+            </Link>
           </MenuItem>
           <MenuItem>
-            <a
-              href="index.html"
+            <Link
+              to="/notfound"
               className="dropdown-items block pl-5 pr-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
             >
               The process
-            </a>
+            </Link>
           </MenuItem>
           <MenuItem>
-            <a
-              href="index.html"
+            <Link
+              to="/notfound"
               className="dropdown-items block pl-5 pr-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
             >
               FAQ
-            </a>
+            </Link>
           </MenuItem>
           <form action="#" method="POST">
             <MenuItem>
-              <button
-                type="submit"
-                className="dropdown-items block w-full pl-5 pr-4 pt-2 pb-10 text-left text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
-              >
-                Blog
-              </button>
+            <Link
+              to="/notfound"
+              className="dropdown-items block pl-5 pr-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
+            >
+              Blog
+            </Link>
             </MenuItem>
           </form>
         </div>

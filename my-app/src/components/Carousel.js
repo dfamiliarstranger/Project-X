@@ -41,7 +41,7 @@ function Carousel(){
       ];
 
     return(
-        <div>
+        <div className='lg:pl-0'>
             <ScrollBarCarousel items={items} />
         </div>
     )

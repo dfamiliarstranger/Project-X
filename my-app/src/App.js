@@ -1,25 +1,37 @@
 import './index.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router,Routes, Route,useLocation} from 'react-router-dom';
 
 // Components
 import Home from "./components/Home/Home";
 import About from './components/About/About';
 import Project from "./components/Project/Project";
 import Contact from "./components/Contact/Contact";
-import ScrollToTop from "./components/ScrollToTop";
+import Application from "./components/Application/Application";
+import NotFound from './components/Notfound';
 
-function App() {
+function Main() {
+
+  const location = useLocation();
+
   return (
-      <Router>
-        <ScrollToTop /> 
-        <Routes>
+        <Routes location={location} key={location.key}>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/project" element={<Project />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path='/application' element ={<Application />} />
+          <Route path="/notfound" element ={<NotFound />} />
         </Routes>
-      </Router>
   );
 }
+
+const App = () => (
+  <div className="App">
+  <Router>
+    <Main />
+  </Router>
+  </div>
+);
+
 
 export default App;
